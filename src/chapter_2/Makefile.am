@@ -1,0 +1,8 @@
+bin_PROGRAMS=problem_1.out problem_2.out problem_3.out problem_4.out problem_5.out problem_6.out problem_7.out
+problem_1_out_SOURCES=problem_1.cpp
+problem_2_out_SOURCES=problem_2.cpp
+problem_3_out_SOURCES=problem_3.cpp
+problem_4_out_SOURCES=problem_4.cpp
+problem_5_out_SOURCES=problem_5.cpp
+problem_6_out_SOURCES=problem_6.cpp
+problem_7_out_SOURCES=problem_7.cpp
