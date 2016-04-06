@@ -1,5 +1,5 @@
-cyclotron
-=========
+positron
+========
 This project provides solution to Programming Exercises given in C++ Primer Plus (Developer's Library), 6th Edition, by Stephane Prata.
 
 The include/ folder contains the Header files necessary to build the solutions.
