@@ -1,6 +1,6 @@
 cyclotron
 =========
-This project provides solution to Programming Exercises given in C++ Primer, 5th Edition by Stanley Lippman.
+This project provides solution to Programming Exercises given in C++ Primer Plus (Developer's Library), 6th Edition, by Stephane Prata.
 
 The include/ folder contains the Header files necessary to build the solutions.
 The src/ folder contains the C++ solutions.
