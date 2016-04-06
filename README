@@ -1,1 +1,17 @@
-Sample readme file for CPPPrimer project.
+cyclotron
+=========
+This project provides solution to Programming Exercises given in C++ Primer, 5th Edition by Stanley Lippman.
+
+The include/ folder contains the Header files necessary to build the solutions.
+The src/ folder contains the C++ solutions.
+
+Steps to Build
+--------------
+1.  Run the configure script
+    > ./configure
+
+3.  Run Make
+    > make
+
+All the object files (*.o) and executables (*.out) would be generated in the src/<chapter_**> folder.
+Change the working directory to src/<chapter_**> and you could run the individual solutions.
