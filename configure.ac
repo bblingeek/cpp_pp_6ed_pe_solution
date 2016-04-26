@@ -9,6 +9,6 @@ AM_INIT_AUTOMAKE()
 
 AC_PROG_CXX
 
-AC_CONFIG_FILES(Makefile src/Makefile src/chapter_2/Makefile src/chapter_3/Makefile)
+AC_CONFIG_FILES(Makefile src/Makefile src/chapter_2/Makefile src/chapter_3/Makefile src/chapter_4/Makefile)
 AC_OUTPUT
 
