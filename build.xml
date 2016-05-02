@@ -1,0 +1,80 @@
+<project name="cpp_pp_6ed_pe_solution" default="build-all" basedir=".">
+	<description>
+		Build File
+	</description>
+
+	<property name="src_chapter2" location="src/chapter_2"/>
+	<property name="src_chapter3" location="src/chapter_3"/>
+	<property name="src_chapter4" location="src/chapter_4"/>
+
+	<property name="cpp" location="/bin/"/>
+
+	<target name="clean" description="Cleanup">
+		<delete dir="${src_chapter2}/bin"/>
+		<delete dir="${src_chapter3}/bin"/>
+		<delete dir="${src_chapter4}/bin"/>
+	</target>
+
+	<target name="init" depends="clean" description="Initialize build process">
+		<tstamp/>
+		<mkdir dir="${src_chapter2}/bin"/>
+		<mkdir dir="${src_chapter3}/bin"/>
+		<mkdir dir="${src_chapter4}/bin"/>
+	</target>
+
+	<target name="build-all" depends="init" description="Build Executables">
+            <!-- Build solution for Programming Exercise of Chapter 2 -->
+		<exec executable="g++" dir="${src_chapter2}">
+			<arg line="-o bin/problem_1.out problem_1.cpp"/>
+		</exec>
+		<exec executable="g++" dir="${src_chapter2}">
+			<arg line="-o bin/problem_2.out problem_2.cpp"/>
+		</exec>
+		<exec executable="g++" dir="${src_chapter2}">
+			<arg line="-o bin/problem_3.out problem_3.cpp"/>
+		</exec>
+		<exec executable="g++" dir="${src_chapter2}">
+			<arg line="-o bin/problem_4.out problem_4.cpp"/>
+		</exec>
+		<exec executable="g++" dir="${src_chapter2}">
+			<arg line="-o bin/problem_5.out problem_5.cpp"/>
+		</exec>
+		<exec executable="g++" dir="${src_chapter2}">
+			<arg line="-o bin/problem_6.out problem_6.cpp"/>
+		</exec>
+		<exec executable="g++" dir="${src_chapter2}">
+			<arg line="-o bin/problem_7.out problem_7.cpp"/>
+		</exec>
+                
+            <!-- Build solution for Programming Exercise of Chapter 3 -->
+                <exec executable="g++" dir="${src_chapter3}">
+			<arg line="-o bin/problem_1.out problem_1.cpp"/>
+		</exec>
+		<exec executable="g++" dir="${src_chapter3}">
+			<arg line="-o bin/problem_2.out problem_2.cpp"/>
+		</exec>
+		<exec executable="g++" dir="${src_chapter3}">
+			<arg line="-o bin/problem_3.out problem_3.cpp"/>
+		</exec>
+		<exec executable="g++" dir="${src_chapter3}">
+			<arg line="-o bin/problem_4.out problem_4.cpp"/>
+		</exec>
+		<exec executable="g++" dir="${src_chapter3}">
+			<arg line="-o bin/problem_5.out problem_5.cpp"/>
+		</exec>
+		<exec executable="g++" dir="${src_chapter3}">
+			<arg line="-o bin/problem_6.out problem_6.cpp"/>
+		</exec>
+		<exec executable="g++" dir="${src_chapter3}">
+			<arg line="-o bin/problem_7.out problem_7.cpp"/>
+		</exec>
+                
+            <!-- Build solution for Programming Exercise of Chapter 4 -->
+                <exec executable="g++" dir="${src_chapter4}">
+			<arg line="-o bin/problem_1.out problem_1.cpp"/>
+		</exec>
+		<exec executable="g++" dir="${src_chapter4}">
+			<arg line="-o bin/problem_2.out problem_2.cpp"/>
+		</exec>
+	</target>
+</project>
