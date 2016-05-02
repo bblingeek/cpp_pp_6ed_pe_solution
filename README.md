@@ -12,7 +12,7 @@ Using GNU Autotools
 -------------------
 1.  Run the preparation step
     > ./autogen.sh
-    
+
 2.  Run the configure script
     > ./configure
 
@@ -25,7 +25,7 @@ Using Apache Ant
 In case you do not have GNU Autotools installed, an alternative way to build the project using Apache Ant.
 
 1.  Run the following command
-    >  ant
+    > ant
 
 All the executables (*.out) would be generated in the src/<chapter_**>/bin folder.
 Change the working directory to src/<chapter_**>/bin and you could run the individual solutions.
