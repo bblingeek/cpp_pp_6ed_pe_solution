@@ -9,6 +9,7 @@ Steps to Build
 --------------
 
 Using GNU Autotools
+-------------------
 1.  Run the preparation step
     > ./autogen.sh
     
@@ -20,6 +21,7 @@ Using GNU Autotools
 
 
 Using Apache Ant
+----------------
 In case you do not have GNU Autotools installed, an alternative way to build the project using Apache Ant.
 
 1.  Run the following command
